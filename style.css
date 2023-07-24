@@ -1,0 +1,122 @@
+@font-face {
+    font-family: benimFontum;
+    src: url(./fonts/CrimsonText-Regular.ttf);
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: benimFontum;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu > a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section {
+    background-image: url(./img/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+}
+
+.main-left {
+    width: 415px;
+}
+
+.main-left > h2 {
+    font-size: 68px;
+}
+
+.button-design {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 18px;
+    margin-bottom: 70px;
+}
+
+.text-color {
+    color: rgb(97, 94, 94);
+}
+.links {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.links > a {
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.second-section {
+    display: flex;
+    gap: 40px;
+    padding: 65px 150px 70px 25px;
+}
+
+.learn-more {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 25px;
+    align-items: center;
+    background-color: #F3F3F3;
+    ;
+}
+
+.logo > img {
+    height: 40px;
+}
+
+.font-size-25 {
+    font-size: 25px;
+}
