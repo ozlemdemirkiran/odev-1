@@ -59,8 +59,19 @@ body {
     width: 415px;
 }
 
+/* 
+Burada h2 için margin:0 vererek kendisinin altındaki margin değerlerini sıfırladık.
+Bu sayede "Shop now" yani button-design butonuna daha yakın oldu.
+
+Shop Now butonunun üstündeki boşluğu bu şekilde sıfırladık. 
+
+Artık butona dilediğin margin değerini vererek üstündeki ve altındaki elemanlar
+ile mesafesini ayarlayabilirsin.
+*/
+
 .main-left > h2 {
     font-size: 68px;
+    margin:0;
 }
 
 .button-design {
@@ -69,7 +80,6 @@ body {
     color: white;
     padding: 10px 40px 10px 40px;
     border-radius: 18px;
-    margin-bottom: 70px;
 }
 
 .text-color {
